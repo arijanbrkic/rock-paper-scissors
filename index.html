@@ -7,11 +7,20 @@
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
-
+<!--Give the user the option to click rock paper or scissors-->
     <div id="playerChoices">
-        <button onclick="(playGame('rock'))">ROCK</button>
-        <button onclick="(playGame('paper'))">PAPER</button>
-        <button onclick="(playGame('scissors'))">SCISSORS</button>
+        <button onclick="playGame('rock')">ROCK</button>
+        <button onclick="playGame('paper')">PAPER</button>
+        <button onclick="playGame('scissors')">SCISSORS</button>
     </div>
+<!--Show score -->
+    <div id="scoreboard">
+        <p id="playerScoreboard">Player score: <span id="playerScore">0</span></p>
+        <p id="computererScoreboard">Computer score: <span id="computerScore">0</span></p>
+    </div>
+<!--Button to play again-->
+    <button onclick="playAgain()">Play again?</button>
+    
+    <script src="script.js"></script>
 </body>
 </html>
