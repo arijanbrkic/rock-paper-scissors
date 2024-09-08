@@ -10,11 +10,16 @@ body {
 h1 {
     color: rgb(11, 0, 107)
 }
-#playerChoices {
+#userChoices {
  margin-bottom: 40px;
 }
-#playerChoices button {
-    font-size: 7.5rem;
+#userScoreboard, #computerScoreboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10em;
+}
+#userChoices button {
+    font-size: 2.5rem;
     background-color: #216E45;
     color: #FFECCC;
     border: 1px solid #D2FF28;
@@ -25,6 +30,6 @@ h1 {
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
-#playerChoices button:hover {
+#userChoices button:hover {
     background-color: #19381F;
 }

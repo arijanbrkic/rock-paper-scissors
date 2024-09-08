@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
+    <div class="gameContainer">
 <!--Give the user the option to click rock paper or scissors-->
-    <div id="userChoices">
-        <button onclick="playGame('rock')">ROCK</button>
-        <button onclick="playGame('paper')">PAPER</button>
-        <button onclick="playGame('scissors')">SCISSORS</button>
-    </div>
+        <div id="userChoices">
+            <button onclick="playGame('rock')">ROCK</button>
+            <button onclick="playGame('paper')">PAPER</button>
+            <button onclick="playGame('scissors')">SCISSORS</button>
+        </div>
 <!--Show score -->
-    <div id="scoreboard">
-        <p id="userScoreboard">User score: <span id="userScore">0</span></p>
-        <p id="computererScoreboard">Computer score: <span id="computerScore">0</span></p>
-    </div>
+        <div id="scoreboard">
+            <p id="roundOutcome">Let's get it on!</p>
+            <p id="userScoreboard">User score: <span id="userScore">0</span></p>
+            <p id="computerScoreboard">Computer score: <span id="computerScore">0</span></p>
+        </div>
 <!--Button to play again-->
-    <button onclick="playAgain()">Play again?</button>
-    
+        <button onclick="playAgain()">Play again?</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
