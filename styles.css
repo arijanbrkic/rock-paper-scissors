@@ -10,26 +10,44 @@ body {
 h1 {
     color: rgb(11, 0, 107)
 }
-#userChoices {
- margin-bottom: 40px;
+#roundOutcome {
+    margin-top: 4vw;
+    text-align: center;
+}
+#scoreboard {
+ margin-top: 8vw;
+ background-color: #a5e7b2;
+ padding: 30px;
 }
 #userScoreboard, #computerScoreboard {
     display: flex;
-    justify-content: space-between;
-    padding: 0 10em;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
 }
 #userChoices button {
-    font-size: 2.5rem;
+    font-size: clamp(4.1rem, 8vw, 10rem);
     background-color: #216E45;
     color: #FFECCC;
     border: 1px solid #D2FF28;
     border-radius: 50%;
-    margin: 0 10px;
-    padding: 5px;
-    min-width: 160px;
+    margin: 0 0.5vw;
+    width: 11vw;
+    height: 11vw;
+    min-width: 6rem;
+    min-height: 6rem;
     cursor: pointer;
-    transition: background-color 0.5s ease;
+    transition: all 1s;
 }
 #userChoices button:hover {
     background-color: #19381F;
+    transform: scale(1.2);
+    transition: all 1s;
+}
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }

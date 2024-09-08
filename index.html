@@ -11,18 +11,18 @@
     <div class="gameContainer">
 <!--Give the user the option to click rock paper or scissors-->
         <div id="userChoices">
-            <button onclick="playGame('rock')">ROCK</button>
-            <button onclick="playGame('paper')">PAPER</button>
-            <button onclick="playGame('scissors')">SCISSORS</button>
+            <button onclick="playGame('rock')">✊</button>
+            <button onclick="playGame('paper')">✋</button>
+            <button onclick="playGame('scissors')">✌️</button>
         </div>
+        <p id="roundOutcome">Let's get it on!</p>
 <!--Show score -->
         <div id="scoreboard">
-            <p id="roundOutcome">Let's get it on!</p>
             <p id="userScoreboard">User score: <span id="userScore">0</span></p>
-            <p id="computerScoreboard">Computer score: <span id="computerScore">0</span></p>
+            <p id="computerScoreboard">CPU score: <span id="computerScore">0</span></p>
         </div>
 <!--Button to play again-->
-        <button onclick="playAgain()">Play again?</button>
+        <button id="playAgainButton" onclick="playAgain()">Play again?</button>
     </div>
     <script src="script.js"></script>
 </body>
