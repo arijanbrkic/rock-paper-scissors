@@ -65,21 +65,21 @@ body {
 }
 #playAgainButton {
     font-size: 2rem;
-    background-color: #3A3D5C; /* Dark cool blue */
-    color: #FFFFFF; /* White text */
-    border: 2px solid #5C8DFF; /* Light blue border for emphasis */
-    border-radius: 8px; /* Rounded edges */
-    padding: 15px 30px; /* Comfortable padding */
+    background-color: #3A3D5C; 
+    color: #FFFFFF; 
+    border: 2px solid #5C8DFF; 
+    border-radius: 8px; 
+    padding: 15px 30px; 
     cursor: pointer;
-    transition: all 0.3s ease; /* Smooth transition on hover */
+    transition: all 0.3s ease;
     margin-top: 3vw;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 #playAgainButton:hover {
-    background-color: #2C2F49; /* Slightly darker on hover */
-    color: #F8F8F8; /* Slightly brighter text on hover */
-    transform: scale(1.05); /* Subtle scaling effect */
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+    background-color: #2C2F49; 
+    color: #F8F8F8; 
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
 }
 
