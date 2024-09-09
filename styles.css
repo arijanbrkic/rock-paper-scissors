@@ -5,31 +5,43 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #C9F2C7;
-}
-h1 {
-    color: rgb(11, 0, 107)
+    color: #ECE2D0;
+    background-color: #0C121D;
 }
 #roundOutcome {
-    margin-top: 4vw;
+    margin-top: 2vw;
+    font-size: 2vw;
     text-align: center;
 }
 #scoreboard {
- margin-top: 8vw;
- background-color: #a5e7b2;
- padding: 30px;
-}
-#userScoreboard, #computerScoreboard {
+    background-color: #2B2D42; 
+    padding: 2vw;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    gap: 5vw;
+    width: 30vw; 
+    color: #FFFFFF; 
 }
+
+#userScoreboard, #computerScoreboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw; 
+    font-size: 1.5rem; 
+}
+.score {
+    font-size: 5vw; 
+    font-weight: bold;
+    color: #F8F8F8; 
+}
+
 #userChoices button {
     font-size: clamp(4.1rem, 8vw, 10rem);
-    background-color: #216E45;
-    color: #FFECCC;
-    border: 1px solid #D2FF28;
+    background-color: #121B2B;
+    color: #ECE2D0;
+    border: 1px solid #ECE2D0;
     border-radius: 50%;
     margin: 0 0.5vw;
     width: 11vw;
@@ -40,7 +52,7 @@ h1 {
     transition: all 1s;
 }
 #userChoices button:hover {
-    background-color: #19381F;
+    background-color: #1F2F47;
     transform: scale(1.2);
     transition: all 1s;
 }
@@ -49,5 +61,25 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    max-height: 100vh;
 }
+#playAgainButton {
+    font-size: 2rem;
+    background-color: #3A3D5C; /* Dark cool blue */
+    color: #FFFFFF; /* White text */
+    border: 2px solid #5C8DFF; /* Light blue border for emphasis */
+    border-radius: 8px; /* Rounded edges */
+    padding: 15px 30px; /* Comfortable padding */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition on hover */
+    margin-top: 3vw;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+#playAgainButton:hover {
+    background-color: #2C2F49; /* Slightly darker on hover */
+    color: #F8F8F8; /* Slightly brighter text on hover */
+    transform: scale(1.05); /* Subtle scaling effect */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+

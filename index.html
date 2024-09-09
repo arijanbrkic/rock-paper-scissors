@@ -18,10 +18,15 @@
         <p id="roundOutcome">Let's get it on!</p>
 <!--Show score -->
         <div id="scoreboard">
-            <p id="userScoreboard">User score: <span id="userScore">0</span></p>
-            <p id="computerScoreboard">CPU score: <span id="computerScore">0</span></p>
+            <div id="userScoreboard">
+                <div>USER</div>
+                <span class="score" id="userScore">0</span>
+            </div>
+            <div id="computerScoreboard">
+                <div>CPU</div>
+                <span class="score" id="computerScore">0</span>
+            </div>
         </div>
-<!--Button to play again-->
         <button id="playAgainButton" onclick="playAgain()">Play again?</button>
     </div>
     <script src="script.js"></script>
