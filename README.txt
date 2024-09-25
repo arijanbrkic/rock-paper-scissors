@@ -1,5 +1,7 @@
 Rock Paper Scissors game.
 
+Live version: https://arijanbrkic.github.io/rock-paper-scissors/
+
 User inputs Rock, Paper, or Scissors.
 Computer plays one of the options by random
 
